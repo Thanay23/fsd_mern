@@ -95,3 +95,15 @@ greeting(); // Output: Hello, I am Thanay and I am 22 years old.
 // In the above code, when we assign user.greet to the variable greeting, we lose the context of this. 
 // When we call greeting(), it does not have access to the user object and therefore this.name and this.age are undefined. 
 // To fix this issue, we can use the bind() method to bind the context of this to the user object.
+
+// react Job Interview Questions
+
+// 1. What is React?    
+// React is a JavaScript library for building user interfaces. It allows developers to create reusable UI components and manage the state of their applications efficiently.
+//  React uses a virtual DOM to optimize rendering and improve performance.
+
+// 2. What are the main features of React?  
+// - Component-Based Architecture: React allows developers to build encapsulated components that manage their own state and can be composed to create complex UIs.
+// - Virtual DOM: React uses a virtual DOM to optimize rendering by only updating the parts of the DOM that have changed.
+// - Unidirectional Data Flow: React follows a unidirectional data flow, which makes it easier to understand and debug applications.
+// - JSX: React uses JSX, a syntax extension that allows developers to write HTML-like code within JavaScript, making it easier to create and manage UI components.
